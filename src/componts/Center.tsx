@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './Center.css'
+import ban1 from '../../public/ban1.jpeg'
+import ban2 from '../../public/ban2.jpeg'
+import ban3 from '../../public/ban3.jpeg'
+import ban4 from '../../public/ban4.jpeg'
 
 export function Center() {
 
@@ -44,10 +48,10 @@ export function Center() {
     <center className='main allweight'>
       <div className='banner' >
         <ul className='banner-display' ref={bannerref}>
-          <li><img src="../public/ban1.jpeg" alt="" /></li>
-          <li><img src="../public/ban2.jpeg" alt="" /></li>
-          <li><img src="../public/ban3.jpeg" alt="" /></li>
-          <li><img src="../public/ban4.jpeg" alt="" /></li>
+          <li><img src={ban1} alt="" /></li>
+          <li><img src={ban2} alt="" /></li>
+          <li><img src={ban3} alt="" /></li>
+          <li><img src={ban4} alt="" /></li>
         </ul>
         <div className='banner-text'>
           <ul ref={textref}>
