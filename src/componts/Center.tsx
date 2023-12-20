@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './Center.css'
-import ban1 from '../../public/ban1.jpeg'
-import ban2 from '../../public/ban2.jpeg'
-import ban3 from '../../public/ban3.jpeg'
-import ban4 from '../../public/ban4.jpeg'
+import ban1 from '../assets/ban1.jpeg'
+import ban2 from '../assets/ban2.jpeg'
+import ban3 from '../assets/ban3.jpeg'
+import ban4 from '../assets/ban4.jpeg'
 
 export function Center() {
 

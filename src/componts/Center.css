@@ -14,7 +14,7 @@ ul,li{
 }
 
   .mianright{
-    background: url(../public/style.png);
+    background: url(../assets/style.png);
   }
   
   .main .banner{
@@ -40,7 +40,7 @@ ul,li{
     display: block;
   }
   .main .dow .down{
-    background: url(../public/style.png);
+    background: url(../assets/style.png);
     height: 128px;
     width: 236px;
     background-position: 0 -219px;

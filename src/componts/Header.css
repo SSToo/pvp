@@ -36,7 +36,7 @@
   }
   
   .header-mune .first-nav li:hover{
-    background: url(../public/style.png);
+    background: url(../assets/style.png);
     color: #ffb357;
   }
   
@@ -59,7 +59,7 @@
   } 
   
   .icons{
-    background: url(../public/style.png);
+    background: url(../assets/style.png);
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -132,7 +132,7 @@
   .header-login .loginLogo{
     width: 42px;
     height: 42px;
-    background: url(../public/loginProt.png);
+    background: url(../assets/loginProt.png);
     border-radius: 50%;
     border: #ffb357 solid 1px;
     margin-right: 8px;

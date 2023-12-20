@@ -6,7 +6,7 @@
 }
 
 body{
-  background: url(../public/bgtop.jpg) no-repeat;
+  background: url(./assets/bgtop.jpg) no-repeat;
   background-position: center top;
 }
 
