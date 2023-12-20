@@ -1,0 +1,150 @@
+.header{
+    height: 84px;
+    background-color: #000000b0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #c9c9dd;
+    position: relative;
+  }
+  
+  
+  .header .header-logo{
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .header-logo img{
+    width: 200px;
+    height: 54px;
+  }
+  
+  .header-mune .first-nav{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .header-mune .first-nav li{
+    display: flex;
+    justify-content: center;
+    width: 117px;
+  }
+  
+  .header-mune .first-nav li:hover{
+    background: url(../public/style.png);
+    color: #ffb357;
+  }
+  
+  .header-mune .first-nav li a{
+    display: flex;
+    flex-direction:column;
+    height: 84px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-mune .first-nav li a em{
+    padding-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  ul li{
+    list-style: none;
+  } 
+  
+  .icons{
+    background: url(../public/style.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .iconshot{
+    background-position: -163px -68px;
+  }
+  
+  .icongrown{
+    background-position: -140px -5px
+  }
+  
+  .secon-nav-contains .secon-nav a{
+    display: flex;
+    align-items: center ;
+    line-height: 32px;
+    box-sizing: border-box;
+  }
+  
+  .header:hover .secon-nav-contains{
+    height: 360px;
+    transition: 0.3s;
+  }
+  
+  .secon-nav-contains{
+    height: 0px;
+    overflow: hidden;
+    color: #c9c9dd;
+    background: #000000b0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 84px;
+    left: 0;
+  }
+  
+  .secon-nav-contains .secon-nav{
+    display: flex;
+    flex-direction:row;
+  
+  } 
+  .secon-nav-contains .secon-nav li{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-right: 24px;
+  }
+  
+  .secon-nav-contains .secon-nav li a{
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+  
+  .secon-nav-contains .secon-nav li a:hover{
+    color: #ffb357;
+    text-decoration: underline;
+  }
+  
+  
+  .header-login{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+  }
+  
+  .header-login .loginLogo{
+    width: 42px;
+    height: 42px;
+    background: url(../public/loginProt.png);
+    border-radius: 50%;
+    border: #ffb357 solid 1px;
+    margin-right: 8px;
+  } 
+  
+  .header-login .welcoms{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .header-login .loginchack{
+    font-size: 14px;
+    color: #858792;
+    margin-top: 8px;
+  }

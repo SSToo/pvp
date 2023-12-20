@@ -1,0 +1,28 @@
+
+.quick_entrance{
+    display: flex;
+    flex-direction:row;
+    width: 1200px;
+    padding-top: 362px;
+    margin: 0 auto;
+    gap: 20px;
+  
+  }
+  
+  .quick_entrance a{
+    display:block;
+    width: 291px;
+    height: 134px;
+    overflow: hidden;
+  }
+  
+  .quick_entrance a img{
+    display: block;
+    height: 134px;
+    width: 100%;
+  }
+  
+  .quick_entrance a img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
